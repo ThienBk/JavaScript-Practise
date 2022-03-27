@@ -1,0 +1,18 @@
+h1{
+  color: red;
+}
+header{
+  background: rgb(39, 5, 235);
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+header ul li{
+  margin: 0 50px;
+}
+header ul li a{
+  text-decoration: none;
+  color: #000;
+}

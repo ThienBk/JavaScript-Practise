@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test lan 1</title>
+  <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css" />
+</head>
+<style>
+  .move{
+    animation: chieu1 3s forwards !important;
+  }
+  @-webkit-keyframes chieu1{
+    0%{transform: translate(0,0);}
+    25%{transform: translate(200px,0);}
+    50%{transform: translate(200px,200px);}
+    75%{transform: translate(0,200px);}
+    100%{transform: translate(0,0);}
+  }
+  #kcd{
+    animation: chieu2 3s forwards;
+  }
+  @-webkit-keyframes chieu2{
+    100%{transform: translate(0,0);}
+    75%{transform: translate(200px,0);}
+    50%{transform: translate(200px,200px);}
+    25%{transform: translate(0,200px);}
+    0%{transform: translate(0,0);}
+  }
+  .notMove{
+    animation: none !important;
+  }
+</style>
+<body>
+  
+  <div id="nutDieuKhien" class="container">
+    <a class="btn btn-outline-primary btn-lg" href="#" role="button"> Button Name here</a>
+  </div>
+  <div id="kcd" class="container mt-2 notMove">
+    <a class="btn btn-primary btn-sm" href="#" role="button"> Button</a>
+  </div>
+  
+
+  <script src="1.js"></script>
+  <script src="bootstrap-5/js/bootstrap.min.js"></script>
+</body>
+</html>

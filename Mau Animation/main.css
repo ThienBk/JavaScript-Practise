@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+  background: gray;
+}
+.noidungto{
+  height: 100%;
+  transition: cubic-bezier(.38,0,.92,.09) 0.3s;
+  box-sizing: border-box;
+  perspective: 2200px;
+}
+.nut{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.menutrai{
+  height: 100%;
+  width: 300px;
+  background: #5cb85c;
+  position: fixed;
+  top: 0;
+  left: 0;  
+  z-index: 2;
+  transition: 0.4s;
+}
+.menutrai.vetrai{
+  transform: translateX(-100%);
+}
+.list-group-item{
+  background: none;
+  color: white;
+  text-transform: uppercase;
+}
+.h3{
+  font-size: 35px;
+  padding: 20px;
+}
+.den{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.37);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 0;
+  visibility: hidden;
+}
+.len{
+  opacity: 1;
+  visibility: visible;
+}
+.dichphai{
+  transform: translateX(300px);
+}
+.mautrang{
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: 0.4s;
+  transform-origin: 100% 0%;
+}
+.trangquay{
+  transform: rotateY(-15deg)
+}

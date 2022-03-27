@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding:  0;
+}
+
+.menu {
+  background: #d5d4d4;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 40px 0;
+  transition: 0.4s;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.phai a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 200;
+  padding: 0 10px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.nholai{
+  padding: 10px 0;
+  
+}

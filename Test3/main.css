@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 5000px;
+}
+.banner-top{
+
+height: 80px;
+
+background: mediumvioletred;
+}
+.menu{
+  background: red;
+  transition: 0.4s;
+}
+.list-group{
+  display: flex;
+  padding: 0 150px; 
+}
+.list-group-item{
+  border: none;
+  background: none;
+  color: #fff;
+}
+.ndtrai{
+  margin-top: 20px;
+}
+.content{
+  display: flex;
+  border: 1px solid red;
+  width: 600px;
+}
+.ndtrai > .content > .item{
+  margin: 10px;
+  width: 400px;
+}
+.ndtrai > .content > .item-1{
+  width: 200px;
+  margin: 10px;
+}
+.ndtrai > .content > .item-1 img{
+  width: 150px;
+  height: 200px;
+}
+.content-right{
+  border: 1px solid red;
+  margin-top: 20px;
+}
+.content-right img{
+  padding: 10px;
+}
+.item-right-1{
+  border: 1px solid red;
+  margin-top: 20px;
+}
+.item-right-1 img{
+  padding: 10px;
+}
+.menu.menuden{
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.chungtoi{
+  position: fixed;
+  top: -8px;
+  display: flex;
+  flex-direction: column;
+}
+.content-1{
+  margin-left: 0;
+  width: 1000px;
+}
+.content-1 img{
+  width: 200px;
+}
+.s3{
+  transition: 0.4s;
+  opacity: 0;
+}
+.s3.dilen{
+  animation: cdlen 1.4s ease forwards;
+}
+@-webkit-keyframes cdlen{
+  from{transform: translateY(300px); opacity: 0;}
+  to{transform: translateY(0); opacity: 1;}
+}
